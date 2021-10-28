@@ -29,7 +29,7 @@ footer{
     padding-bottom: 10px;
 }
 body {
-    font-family: Arial, 1em;
+    font-family: Arial;
     background-image: url(../image/abstractPic.jpg);
     background-size: cover;
 }
@@ -63,7 +63,7 @@ h3{
 .more {
     color: blue;
     text-decoration: underline;
-    border:  1px, dashed, gray;
+    border:  1px dashed gray;
     background-color: #D69BBE;
 }
  article ul {
