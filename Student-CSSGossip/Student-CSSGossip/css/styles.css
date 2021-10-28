@@ -1,0 +1,41 @@
+@font-face {
+    font-family: quicksand;
+    src: url('../font/webfontkit-20211028-105831/quicksand-regular-webfont.woff') format('woff');
+    src: url('../font/webfontkit-20211028-105831/quicksand-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Arial, 1em;
+    background-image: url(../image/abstractPic.jpg);
+    background-size: cover;
+}
+h1 {
+    font-family: quicksand;
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+    border-bottom: 1px, solid, black;
+}
+#fonts {
+    color: orange;
+    font-family: 'Comic Sans MS', 1.5em, italic, bold;
+}
+.colors {
+    color: red;
+    font: bold;
+}
+.backgrounds{
+    color: green;
+    font-family: 'Trebuchet MS', 1.25em;
+}
+.more {
+    color: blue;
+    text-decoration: underline;
+    border:  1px, dashed, gray;
+    background-color: #D69BBE;
+}
+ article ul {
+    list-style-image: url(../image/peaceSign1.png);
+}
