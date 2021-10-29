@@ -1,0 +1,66 @@
+/*Joel Weers 10/29/2021*/
+@font-face {
+	font-family: kaushanscript;
+	src: url('../Fonts/kaushanscript-regular-webfont.woff') format('woff');
+	src: url('../Fonts/kaushanscript-regular-webfont.woff2') format('woff2');
+}
+
+/* Classes and IDs*/
+
+#outerwrapper {
+	max-width: 70%;
+
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+
+/* Mains and Footers and such */
+
+main, footer { 
+	clear: both;
+}
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+footer {
+	text-align: center;
+	font-size: .75em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ad7100;
+}
+
+body {
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+/* List Elements and headings */
+nav li {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: 'Zen Antique', serif;
+	font-size: 2.75em;
+}
+h2 {
+	font-family: kaushanscript;
+	font-weight: normal;
+	font-style: italic;
+}
+main li {
+	list-style-image: url(../Images/tomatoResized.png);
+}
