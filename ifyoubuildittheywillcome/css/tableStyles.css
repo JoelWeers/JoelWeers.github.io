@@ -1,0 +1,51 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name:Joel Weers Tim Case                                */
+
+/* Gradient target HTML body element tag */
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body{
+    background-image: radial-gradient(farthest-side at right bottom, red, green, blue);
+    background-repeat: no-repeat;
+}
+
+/* css target tableStyle class in HTML */
+
+table, th, td {
+    background-color: lightgrey;
+    border: solid 2px black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+}
+.colspan{
+    text-align: center;
+}
+
+
+/* css target HTML Table caption tag */
+
+caption{
+    color: lightgrey;
+}
+
+/* css target HTML Table thead tag */
+  
+/* css target HTML Table tfoot tag */
+
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+ ::first-line{
+     font-size: .80em;
+ }
+ 
+
+/* use colgroup */
+colgroup{
+    background-color: gray;
+    font-style: italic;
+}
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */
