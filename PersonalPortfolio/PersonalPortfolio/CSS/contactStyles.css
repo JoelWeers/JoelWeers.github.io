@@ -1,0 +1,9 @@
+/* Form Styling*/
+
+form {
+     margin-left: auto;
+     margin-right: auto;
+}
+fieldset legend {
+    font-size: 1.25em;
+}

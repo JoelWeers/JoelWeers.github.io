@@ -1,0 +1,68 @@
+@font-face {
+    font-family: fira-sans ;
+    src: url('../Fonts/firasans-medium-webfont.woff') format('woff');
+    src: url('../Fonts/firasans-medium-webfont.woff2') format('woff2');
+}
+html{
+    background-color: #D2B48C;
+}
+
+/* Header */
+
+header {
+    background-color: red;
+    padding: 10px;
+}
+header img {
+    float: left;
+    border: 7px solid #D2B48C;
+}
+.welcome {
+    font-family: fira-sans , 'Merriweather', Arial;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navagation Elements*/
+header nav ul{
+    list-style: none;
+    list-style-image: none;
+	box-sizing: border-box;
+    float: left;
+	width: 12.5%;
+    font-size: 1.5em;
+}
+nav ul li:hover{
+    background-color: rgb(192, 0, 0);
+    margin: 1px;
+    padding: 15px;
+}
+nav ul li {
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/*body*/
+#main{
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    text-align: center;
+}
+span{
+    color: red;
+}
+
+
+/* Footer */
+footer{
+    font-family: fira-sans , 'Merriweather', Arial;
+    padding: 10px;
+    background-color: red;
+}
+#feet {
+    text-align: center;
+    font-size: .7em;
+}

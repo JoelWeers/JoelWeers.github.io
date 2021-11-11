@@ -1,0 +1,32 @@
+/* Styling for the table*/
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table caption {
+    font-size: 2em;
+}
+
+table th, td {
+    border: 2px solid black ;
+    padding: 10px;
+}
+
+table thead th{
+    background-color: #b19878fd;
+    font-size: 1.5em
+}
+
+table tbody {
+    font-size: 1.35em;
+}
+
+table tfoot td {
+    background-color: #b19878fd;
+}
+
+table tbody td:hover {
+    background-color: #b19878fd;
+}
