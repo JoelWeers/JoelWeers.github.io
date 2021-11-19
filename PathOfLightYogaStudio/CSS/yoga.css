@@ -1,0 +1,84 @@
+/* Mobile design formating */
+@media only screen and (max-width: 640px) {
+	nav ul li {
+		display: block;
+	}
+	header {
+		background-image: none !important;
+	}
+	img {
+		display: none;
+	}
+	body {
+		background-image: url(../Images/yogamobile.png);
+	}
+}
+
+/* Tablet design formatting */
+@media only screen and (min-width: 641px){
+	nav ul li {
+		display: inline;
+	}
+	body{
+		background-color: #F5F5F5;
+	}
+	img {
+		max-width: 100%;
+	}
+
+}
+
+body { 
+
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../Images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+nav ul{
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+	margin-bottom: .5em;
+}
+
+main ul{
+	list-style-image: url(../Images/yogabullet.png);
+	margin-left: 3em;
+}
+
+table.schedule {
+	border: solid black 1px;
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+table.schedule td{
+	border: solid black 1px;
+	text-align: center;
+}
