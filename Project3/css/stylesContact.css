@@ -1,0 +1,50 @@
+main {
+    margin: 0 auto 3em;
+    width: 640px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+form div {
+    justify-content: center;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+    vertical-align: top;
+}
+
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+select { 
+    width: 13em; 
+}
+
+textarea {
+    height: 5em;
+    width: 20em;
+}
+
+span, label#explanation {
+    color: red;
+    vertical-align: top;
+}

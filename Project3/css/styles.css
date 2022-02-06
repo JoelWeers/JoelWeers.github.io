@@ -1,0 +1,86 @@
+html {
+    background-image: linear-gradient(to bottom right, #d0efff, #2a9df4, #187bcd, #1167b1);
+}
+
+header {
+    background-color: #0091ff;
+}
+
+a#home, header h1 {
+    float: left;
+    margin-left: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+ul#navbar li {
+    float: right;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 1.2em;
+    border: blue 3px solid;
+}
+
+main{
+    clear: both;
+    margin: 1.5em;
+}
+
+img#homePicture {
+    border: blue solid 3px;
+}
+
+div#welcome {
+    text-align: center;
+}
+
+main table caption {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table tr td {
+    border: solid 4px blue;
+    margin: 5px;
+}
+
+tr td div {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #0091ff;
+}
+
+footer {
+    margin: auto;
+    padding-top: 5px;
+    background-color: #0091ff;
+}
+
+footer p {
+    text-align: center;
+    font-size: .9rem;
+}
+
+footer div#socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .3em;
+}
+
+footer svg {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: blue;
+}
+
