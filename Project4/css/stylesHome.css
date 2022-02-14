@@ -1,0 +1,38 @@
+hr {
+    color: blue;
+    border: 2px solid blue;
+}
+
+h2#heading {
+    text-align: center;
+}
+
+div#ourCommunity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.picture {
+    justify-content: center;
+    padding: 1em;
+    height: 350;
+    width: 500;
+    background-color: #187bcd;
+    margin: 1em;
+    border: 2px black solid;
+    border-radius: 0 10px 0 10px;
+}
+
+div.picture img {
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+
+div.picture p {
+    padding: .5em;
+}
+
+#slides img {
+	display: none;
+}
