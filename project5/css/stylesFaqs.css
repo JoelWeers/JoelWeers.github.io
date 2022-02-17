@@ -1,0 +1,15 @@
+
+main {
+    width: 550px;
+    border: 3px solid blue;
+    padding: 15px 25px;
+	margin: 3em auto 3em auto;
+}
+main h1 { 
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+main p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+}

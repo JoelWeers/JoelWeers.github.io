@@ -1,0 +1,14 @@
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+div p {
+    text-align: center;
+    font-size: 1.3em;
+}
