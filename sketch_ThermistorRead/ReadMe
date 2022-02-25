@@ -1,0 +1,4 @@
+This code was built for Science Olympiad 2020 for the subevent called Detector Building.
+The goal of Detector building was to build a device that can take a reading from a thermistor (a resistor that changes its resistance based on temperature) and turn it into a temperature.
+Then display that temperature.
+This code was built for an Arduino Uno board with an I2C backpack to display the received data on a liquid crystal display.
