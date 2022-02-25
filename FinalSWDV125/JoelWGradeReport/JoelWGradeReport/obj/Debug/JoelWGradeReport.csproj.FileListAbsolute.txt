@@ -1,0 +1,7 @@
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\obj\Debug\JoelWGradeReport.csproj.AssemblyReference.cache
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\obj\Debug\JoelWGradeReport.csproj.CoreCompileInputs.cache
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\bin\Debug\JoelWGradeReport.exe.config
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\bin\Debug\JoelWGradeReport.exe
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\bin\Debug\JoelWGradeReport.pdb
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\obj\Debug\JoelWGradeReport.exe
+C:\Users\jweers\Documents\FinalSWDV125\JoelWGradeReport\JoelWGradeReport\obj\Debug\JoelWGradeReport.pdb
