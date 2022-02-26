@@ -1,0 +1,83 @@
+/* Styling for the table*/
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+
+table caption {
+    font-size: 2em;
+}
+
+table th, td {
+    border: 2px solid black ;
+    padding: 10px;
+}
+
+table th td a {
+    text-decoration: none;
+    color: black;
+}
+
+table tr td a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+table thead th{
+    background-color: #b19878fd;
+    font-size: 1.5em
+}
+
+table tbody {
+    font-size: 1.35em;
+}
+
+table tfoot td {
+    background-color: #b19878fd;
+}
+
+table tbody td:hover {
+    background-color: #b19878fd;
+}
+
+@media only screen and (max-device-width: 480px){
+    h2 {
+        font-size: 1.2em;
+    }
+    table.center {
+        overflow-x: auto;
+    }
+    table caption {
+        font-size: 1em;
+    }
+    table thead th{
+        background-color: #b19878fd;
+        font-size: .75em
+    }
+    
+    table tbody {
+        font-size: .6em;
+    }
+}
+
+@media only screen and (max-device-width: 768px){
+    h2 {
+        font-size: 1.2em;
+    }
+    table.center {
+        overflow-x: auto;
+    }
+    table caption {
+        font-size: 1em;
+    }
+    table thead th{
+        background-color: #b19878fd;
+        font-size: .75em
+    }
+    
+    table tbody {
+        font-size: .6em;
+    }
+}

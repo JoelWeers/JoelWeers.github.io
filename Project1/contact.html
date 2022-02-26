@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Joel Weers November 10th, 2021-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Joel's personal portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, C#, Java">
+    <meta name="author" content="Joel Weers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="Images/favicon-16x16.png" type="image/gif" sizes="16x16">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/contactStyles.css">
+
+    <title>Contact Joel</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="Images/Joel.svg" alt="Joel Weers"></a>
+        <div>
+            <h1 class="welcome">Welcome, my name is Joel Weers</h1>
+            <h2 class="welcome">I am a software developer</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Please, get in contact with me!</h2>
+            <p>"*" means required.</p>
+            <form id="form1">
+                <label for="company">Company Name:</label><span class="required" id="company1">*</span><br>
+                <input type="text" name="compName" size="50" id="company"><br>
+
+                <label for="name">Your Name:</label><span class="required" id="name1">*</span><br>
+                <input type="text" name="name" size="50" id="name"><br>
+
+                <label for="email">Your Email:</label><span class="required" id="email1">*</span><br>
+                <input type="text" name="email" size="50" id="email"><br>
+
+                <label for="confirm">Confirm Email:</label><span class="required" id="confirm1">*</span><br>
+                <input type="text" name="confirm" size="50" id="confirm"><br>
+
+                <label for="phone">Phone Number:</label><span id="phone1"></span><br>
+                <input type="text" name="phone" size="50" id="phone"><br><br>
+
+                <label for="comment">Enter your comments:</label><br>
+                <textarea cols="100" rows="10" name="comment" id="comment"></textarea><br><br>
+
+                <fieldset>
+                    <legend>Choose how you heard of me</legend>
+
+                    <input type="radio" id="Github" name="method">
+                    <label for="Github">Github</label><br />
+
+                    <input type="radio" id="Application" name="method">
+                    <label for="Application">Application</label><br />
+
+                    <input type="radio" id="Wordofmouth" name="method">
+                    <label for="Wordofmouth">Word of mouth</label>
+                </fieldset><br>
+
+                <label for="Work">Choose needed work:</label><br>
+
+                <select name="workneed" id="Work">
+                    <option value="Neither">Neither</option>
+                    <option value="frontend">Front-End</option>
+                    <option value="backend">Back-End</option>
+                </select>
+
+                <input type="button" id="contact" value="Contact Me">
+                <input type="button" id="reset1" value="Reset"><br><br>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p><a href="mailto:joelweers@my.cwi.edu"><img src="Images/Email.png"
+                        alt="Joels Email Address"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/"
+                    target="_blank"><img src="Images/linkedin.png" alt="Linked In"></a>&nbsp;&nbsp;&nbsp;<a
+                    href="https://github.com/JoelWeers" target="_blank"><img src="Images/github.png"
+                        alt="Joels Github"></a>&nbsp;&nbsp;&nbsp;<a href="tel:11111111111"><img
+                        src="Images/Telephone.png" alt="Joels Telephone"></a></p>
+            <p>Email &bull; Linked In &bull; Github &bull; Phone</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="Javascript/contactScript.js"></script>
+</body>
+
+</html>

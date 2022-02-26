@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: fira-sans ;
+    src: url('../Fonts/firasans-medium-webfont.woff') format('woff');
+    src: url('../Fonts/firasans-medium-webfont.woff2') format('woff2');
+}
+html{
+    background-color: #D2B48C;
+}
+
+/* Header */
+
+header {
+    background-color: red;
+    border: black solid 2px;
+    border-radius: .5em;
+    padding: 10px;
+}
+header img {
+    float: left;
+    border: 7px solid #D2B48C;
+    border-radius: .5em;
+}
+.welcome {
+    font-family: fira-sans , 'Merriweather', Arial;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+
+}
+
+/* Navagation Elements*/
+header nav ul{
+    list-style: none;
+    list-style-image: none;
+	box-sizing: border-box;
+    float: left;
+	width: fit-content;
+    font-size: 1.5em;
+}
+nav ul li:hover{
+    background-color: rgb(192, 0, 0);
+    margin: 1px;
+    padding: 15px;
+}
+nav ul li {
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    border: black solid 2px;
+    border-radius: .5em;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+/*body*/
+
+main{
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    text-align: center;
+}
+span{
+    color: red;
+}
+
+
+/* Footer */
+footer{
+    font-family: fira-sans , 'Merriweather', Arial;
+    padding: 10px;
+    background-color: red;
+    border: black solid 2px;
+    border-radius: .5em;
+}
+footer div {
+    text-align: center;
+    font-size: .7em;
+}
+
+/*Mobile Devices*/
+@media only screen and (max-device-width: 480px){
+    header h2 {
+        display: none;
+    }
+    header nav ul{
+        text-align: center;
+        justify-content: center;
+        width: 80vw;
+    }
+    main {  
+        clear: both;
+    }
+
+}
+
+/*Tablet views*/
+@media only screen and (max-device-width: 768px){
+    header nav ul{
+        text-align: center;
+        justify-content: center;
+        width: 90vw;
+    }
+    main {  
+        clear: both;
+    }
+}
