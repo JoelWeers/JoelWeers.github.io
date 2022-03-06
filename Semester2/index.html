@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--Joel Weers March 4th, 2022-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bootstrap">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Joel Weers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Bootstrap 4 Template</title>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center mb-0">
+        <h1>Welcome</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <a class="navbar-brand" href="#">Head</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row mt-3">
+            <section class="col-sm-3">
+                <h2>Gallery</h2>
+                <h5>Here are some photos of the community!</h5>
+                <div class="m-3" style="height: 200px; background: #aaa;">Lorem</div>
+                <div class="m-3 text-white" style="height: 200px; background: rgb(0, 0, 0);">Lorem</div>
+                <div class="m-3" style="height: 200px; background: #aaa;">Lorem</div>
+                <div class="m-3 text-white" style="height: 200px; background: rgb(0, 0, 0);">Lorem</div>
+
+            </section>
+            <article class="col-sm-9 my-5">
+                <h2 class="text-center">Welcome we are glad you are here!</h2>
+                <h4 class="m-3">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</h4>
+                <section class="container border border-dark">
+                    <h3 class="text-center">Links:</h3>
+                    <div class="row my-5">
+                        <article class="col-sm-6 d-flex justify-content-center">
+                            <p class="p-2">Facebook:</p>
+                            <button type="button" class="p-3">GoodMorning</button>
+                        </article>
+                        <article class="col-sm-6 d-flex justify-content-center">
+                            <p class="p-2">Instagram:</p>
+                            <button type="button" class="p-3">GoodMorning</button>
+                        </article>
+                    </div>
+                    <div class="row my-5">
+                        <article class="col-sm-6 d-flex justify-content-center">
+                            <p class="p-2">Twitter:</p>
+                            <button type="button" class="p-3">GoodMorning</button>
+                        </article>
+                        <article class="col-sm-6 d-flex justify-content-center">
+                            <p class="p-2">GitHub:</p>
+                            <button type="button" class="p-3">GoodMorning</button>
+                        </article>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="row mt-5">
+                        <article class="col-sm-12 d-flex justify-content-center mb-0">
+                            <h3>Contact Us!</h3>
+                        </article>
+                    </div>
+                    <div class="row mt-5">
+                        <article class="col-sm-12 d-flex justify-content-center">
+                            <form action="confirm.html" method="get">
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0" for="email_address">E-Mail:&nbsp;</label><br>
+                                    <input type="text" name="email_address" id="email_address">
+                                    <span class="required text-danger" id="email1">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0" for="confirm_address">Confirm Email:&nbsp;</label><br>
+                                    <input type="text" name="confirm_address" id="confirm_address">
+                                    <span class="required text-danger" id="email2">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0" for="phone">Mobile Phone:&nbsp;</label><br>
+                                    <input type="text" name="phone" id="phone">
+                                    <span class="required text-danger" id="phone1">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0" for="contact">Contact me by:&nbsp;</label><br>
+                                    <select name="contact" id="contact">
+                                        <option value="">Select a Method</option>
+                                        <option>Text</option>
+                                        <option>Mobile</option>
+                                        <option>Email</option>
+                                        <option>Don't contact me</option>
+                                    </select>
+                                    <span class="required text-danger" id="contact1">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0">Do you want to be a part of our newsletter?&nbsp;</label><br>
+                                    <input type="radio" name="news" id="yes" value="text" checked>&nbsp;Yes&nbsp;
+                                    <input type="radio" name="news" id="no" value="email">&nbsp;No&nbsp;
+                                    <span class="required text-danger" id="news1">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0">Terms of Service:&nbsp;</label><br>
+                                    <input type="checkbox" name="terms" id="terms" value="yes">&nbsp;I accept
+                                    <span class="required text-danger" id="terms1">*</span>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label class="mb-0" for="comments">Comments:&nbsp;</label><br>
+                                    <textarea name="comments" id="comments" row="5" cols="40"></textarea>
+                                </div>
+                                <div class="my-2 d-flex justify-content-center">
+                                    <label>&nbsp;</label>
+                                    <input type="button" id="register" value="Register">
+                                    <input type="button" id="reset_form" value="Reset">
+                                    <label class="text-danger" id="explanation">&nbsp;* means required</label>
+                                </div>
+                            </form>
+                        </article>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </section>
+    <section class="container border border-dark">
+        <div class="row mt-5">
+            <article class="col-sm-12 d-flex justify-content-center mb-0">
+                <h3>Frequently Asked Questions</h3>
+            </article>
+        </div>
+        <div class="row mt-5 mb-3">
+            <article class="col-sm-12 d-flex justify-content-center">
+                <div class="mh-5" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link text-center" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Question Number 1
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed text-center" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Question Number 2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed text-center" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Question Number 3
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="jumbotron text-center mb-0 mt-5">
+            <p>Pax Magnifica Bellum Gloriosum!</p>
+            <p>And Footer.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
